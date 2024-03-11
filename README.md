@@ -50,6 +50,17 @@ php artisan serve
 
 10. Accédez à votre application dans votre navigateur à l'adresse `http://localhost:8000`.
 
+#Récupération de la base de données :
+
+1- Créez une nouvelle base de données en untilisant l'invite de commandes.
+
+2- Exéutez la commande qui suit pouur restaurer la base de données du projet. 
+mysql -u [nom_utilisateur] -p [nom_base_de_données] < backup.sql
+Assurez-vous de remplacer [nom_utilisateur] par votre nom d'utilisateur MySQL et [nom_base_de_données] par le nom de la base de données dans laquelle vous souhaitez restaurer les données. Vous serez ensuite invité à saisir votre mot de passe MySQL.
+
+3- Vérification de la restauration : Une fois la commande exécutée avec succès, vous pouvez vérifier que la restauration a été effectuée en vous connectant à votre serveur MySQL et en consultant les données de la base de données restaurée.
+
+
 # Ressources complémentaires : 
   Cours : https://grafikart.fr/formations/laravel
   TP : https://cours.brosseau.ovh/cheatsheets/laravel/quick.html
