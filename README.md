@@ -50,7 +50,7 @@ php artisan serve
 
 10. Accédez à votre application dans votre navigateur à l'adresse `http://localhost:8000`.
 
-#Récupération de la base de données :
+## Récupération de la base de données :
 
 1- Créez une nouvelle base de données en untilisant l'invite de commandes.
 
